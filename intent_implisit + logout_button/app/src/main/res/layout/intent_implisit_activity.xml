@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".basketcounter_eksplisit_intent.CounterActivity">
+
+        <EditText
+            android:id="@+id/edtPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:hint="Nomer Telephone"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/btnPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:background="#808080"
+            android:text="Open Nomer"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/edtWebsiteUrin"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:hint="Masukkan URL"
+            android:inputType="textUri"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btnWebsiteUri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:background="#808080"
+            android:text="Open Browser"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/edtLocationUri"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:hint="Buka Lokasi"
+            android:inputType="textUri"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btnLocationUri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:background="#808080"
+            android:text="Open Location"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/edtShareText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:hint="Masukkan Teks"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textSize="2sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btnShareText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:background="#808080"
+            android:text="Share Text"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
